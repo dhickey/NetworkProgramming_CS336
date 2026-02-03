@@ -1,0 +1,30 @@
+Homework 1:
+Write a java console program called launcher
+Prompt the user 1-8 for:
+    Taskmgr.exe
+    notepad.exe
+    charmap.exe
+    snippingTool.exe
+    msinfo32.exe
+    winver.exe
+    nslookup.exe
+    cmd.exe
+Take user input 1-8
+Use java ProcessBuilder to start the processs
+After a process has been created, output PID
+Prompt user again until user enters 0
+
+Exceptions:
+nslookup.exe 
+cmd.exe
+Denote with * in menu
+Launcher needs to share the console
+
+the programs need to call ProcessBuilder.inheritIO() before launch 
+Launcher must call Process.waitFor(), Process.exitValue(), Process.Info()
+    Output:
+    exit code
+    CPU Time
+
+If invalid input prompt user again
+
